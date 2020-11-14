@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6106129214370303596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6914859996142179542}
+  - component: {fileID: 7519145587738024819}
+  - component: {fileID: 5745933808415469497}
+  - component: {fileID: 6376039319808146154}
+  - component: {fileID: 6376039319808146153}
+  m_Layer: 0
+  m_Name: Piano
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6914859996142179542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106129214370303596}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 137.5835, y: -1143.4279, z: 165.96309}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7519145587738024819
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106129214370303596}
+  m_Mesh: {fileID: 3985615260038707078, guid: 4d535106474c3cb429a75b36b64bfc45, type: 3}
+--- !u!23 &5745933808415469497
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106129214370303596}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 61114ee27a83b6f48a4db1086974228e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6376039319808146154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106129214370303596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c98a178e9dd366a40a8f80273eeb0230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes:
+  - note: 0
+    audio: {fileID: 8300000, guid: c45eabf758557814081d43b479b63435, type: 3}
+  - note: 1
+    audio: {fileID: 8300000, guid: 5c5b462ab6b9f5b4c9420a8f581f7b1b, type: 3}
+  - note: 2
+    audio: {fileID: 8300000, guid: 005b0c302b6317c4f940b34c4b8868aa, type: 3}
+  - note: 3
+    audio: {fileID: 8300000, guid: d5796f3c5d2a4f741a8d4749eb5b8ee9, type: 3}
+  - note: 4
+    audio: {fileID: 8300000, guid: fdb12e9dcb816594e9ab4c893083efa7, type: 3}
+  - note: 5
+    audio: {fileID: 8300000, guid: 70725461553514944b7a494a661e456a, type: 3}
+  - note: 6
+    audio: {fileID: 8300000, guid: 76754d7f1986a5f49be4c808e1bd9adc, type: 3}
+--- !u!114 &6376039319808146153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106129214370303596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ecb24435c2f61c498bde9a73ed8181a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amplitude: 0.4
+  frequentie: 0.01
+  fixX: 1
+  fixY: 0
+  fixZ: 1
+  position: 1
+  scale: 0
+  center: {x: 0, y: 0, z: 0}
